@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body{
+    background-color: bisque;
+    padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    width: 50%;
+    padding: 20px;
+    background-color: #aa56f8;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 30px;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 30px 5px;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+    width: 15%;
+    color: black;
+    padding: 14px;
+    background-color: #36f33c;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButton{
+    background-color: #36f33c;
+
+}
+
+.addButton:hover{
+    background-color: #45a059;
+}
+
+.header{
+    width: 100%;
+    color: bisque;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.addTask{
+    background-color: #ffd607;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.list-heading{
+    color: rgb(15, 14, 14);
+    font-size: 40px;
+    justify-content: center;
+    background-color: #eb7bc0;
+    width: 90%;
+    padding: 5px;
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+.ListData{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.button-position{
+    position: relative;
+    left: 11%;
+    top: -10px;
+}
+
+.remButton,.remAllButton{
+    background-color: red;
+    width: fit-content;
+}
+.remButton:hover,.remAllButton:hover{
+    background-color: #aa1d1d;
 }
